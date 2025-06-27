@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.input {
+  display: none;
+}
+
+.box {
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.input:checked + .box {
+  background-color: var(--primary);
+}
+
+.input:checked + .box::after {
+  content: "✔";
+  position: absolute;
+  bottom: -1px;
+  left: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  color: #fff;
+}

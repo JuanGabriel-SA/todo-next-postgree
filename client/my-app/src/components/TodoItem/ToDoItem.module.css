@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 40px 1fr 30px;
+  column-gap: 20px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.title {
+  max-width: 300px;
+  overflow-x: auto;
+  padding: 10px 0px;
+}
+
+.removeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  overflow: hidden;
+}

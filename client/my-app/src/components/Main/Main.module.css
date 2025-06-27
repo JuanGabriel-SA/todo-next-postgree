@@ -1,0 +1,11 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a1458;
+  animation: waveScroll 6s ease-in-out infinite alternate;
+  position: relative;
+  overflow: hidden;
+}

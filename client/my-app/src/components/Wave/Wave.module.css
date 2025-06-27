@@ -1,0 +1,20 @@
+.wave {
+  position: absolute;
+  top: 810px;
+  left: 0;
+  max-width: none;
+  width: 200vw;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: bottom;
+  animation: wave 6s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

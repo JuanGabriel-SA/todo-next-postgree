@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--background);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: ease-in-out 200ms;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.04);
+}
